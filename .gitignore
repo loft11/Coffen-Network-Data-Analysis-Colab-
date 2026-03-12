@@ -1,0 +1,45 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+ENV/
+
+# Данные (обычно не хранят в репозитории)
+*.csv
+*.xlsx
+*.xls
+*.pickle
+*.pkl
+*.h5
+*.hdf5
+*.npz
+data/
+datasets/
+!sample_data/  # можно оставить примеры данных
+
+# Google Colab
+*.colab
+*.colab.ipynb
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Временные файлы
+*.tmp
+*.bak
+*.log
